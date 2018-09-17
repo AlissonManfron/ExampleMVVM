@@ -45,12 +45,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		219BE7F72150140E00EE2A25 /* Netework */ = {
+		219BE7F72150140E00EE2A25 /* Network */ = {
 			isa = PBXGroup;
 			children = (
 				219BE7F82150142500EE2A25 /* Network.swift */,
 			);
-			path = Netework;
+			path = Network;
+			sourceTree = "<group>";
+		};
+		219BE7FE2150203E00EE2A25 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				21AE7C6E214C222F00872065 /* Main.storyboard */,
+				21AE7C73214C223B00872065 /* LaunchScreen.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		219BE7FF2150205400EE2A25 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				21AE7C6C214C222F00872065 /* ViewController.swift */,
+				21AE7C7C214C227000872065 /* UsersContract.swift */,
+				21AE7C7E214C22AF00872065 /* UsersViewModel.swift */,
+				21AE7C80214C230100872065 /* UsersDataSource.swift */,
+				219BE7FA215014C700EE2A25 /* UserItemModel.swift */,
+			);
+			path = user;
 			sourceTree = "<group>";
 		};
 		21AE7C5E214C222F00872065 = {
@@ -72,17 +93,12 @@
 		21AE7C69214C222F00872065 /* ExampleMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				219BE7F72150140E00EE2A25 /* Netework */,
+				219BE7FF2150205400EE2A25 /* user */,
+				219BE7FE2150203E00EE2A25 /* storyboard */,
+				219BE7F72150140E00EE2A25 /* Network */,
 				21AE7C6A214C222F00872065 /* AppDelegate.swift */,
-				21AE7C6C214C222F00872065 /* ViewController.swift */,
-				21AE7C6E214C222F00872065 /* Main.storyboard */,
 				21AE7C71214C223B00872065 /* Assets.xcassets */,
-				21AE7C73214C223B00872065 /* LaunchScreen.storyboard */,
 				21AE7C76214C223B00872065 /* Info.plist */,
-				21AE7C7C214C227000872065 /* UsersContract.swift */,
-				21AE7C7E214C22AF00872065 /* UsersViewModel.swift */,
-				21AE7C80214C230100872065 /* UsersDataSource.swift */,
-				219BE7FA215014C700EE2A25 /* UserItemModel.swift */,
 			);
 			path = ExampleMVVM;
 			sourceTree = "<group>";
