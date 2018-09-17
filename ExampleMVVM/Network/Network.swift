@@ -34,8 +34,6 @@ class NetworkClient {
                 }
             }
         }
-        
         task.resume()
     }
-    
 }

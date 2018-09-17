@@ -17,5 +17,4 @@ struct UserItemModel {
         name = user.name ?? ""
         email = user.email ?? ""
     }
-    
 }
